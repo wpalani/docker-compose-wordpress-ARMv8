@@ -1,4 +1,4 @@
-FROM php:7.4-fpm-alpine
+FROM arm64v8/php:8.2-fpm-alpine
 
 RUN touch /var/log/error_log
 
