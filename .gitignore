@@ -1,4 +1,6 @@
 mysql/*
 !mysql/README.md
+nginx/certs/*
+!nginx/certs/README.md
 .DS_Store
 .idea
