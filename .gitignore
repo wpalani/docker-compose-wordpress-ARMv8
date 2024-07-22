@@ -4,3 +4,4 @@ nginx/certs/*
 !nginx/certs/README.md
 .DS_Store
 .idea
+.env
