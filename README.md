@@ -1,19 +1,18 @@
-# docker-compose-wordpress for arm64v8 based chips.
-This project is a fork from [aschmelyun/docker-compose-wordpress](https://github.com/aschmelyun/docker-compose-wordpress).
+# docker-compose-wordpress for Apple M1,2,3.
+This project is a fork of [aschmelyun/docker-compose-wordpress](https://github.com/aschmelyun/docker-compose-wordpress).
 
-I usually use [LocalWP](https://localwp.com/) for WordPress development but I ran into a few issues stemming from environment limitations. So I started looking for a simple and reliable Docker Compose workflow that'll allow me more control over the environment and, and I stumbled on [Andrew Schmelyun's](https://github.com/aschmelyun) repo.
+I usually use [LocalWP](https://localwp.com/) for WordPress development but I ran into several issues due to environment limitations. So I started looking for a simple and flexible Docker Compose workflow that'll allow me more control over the environment and, and I stumbled on [Andrew Schmelyun's](https://github.com/aschmelyun) repo.
 
-The base project is excellent but it doesn't run on arm64 based chips (Apple M1, M2, M3) and hasn't been updated in a while.
+While the original project is fantastic, it doesn’t support arm64-based chips (Apple M1, M2, M3) and hasn't been updated in a while.
 
-[Andrew](https://github.com/aschmelyun) has a very thorough [walkthrough video](https://www.youtube.com/watch?v=kIqWxjDj4IU) on getting everything set up if you'd like to follow it.
+For those interested, [Andrew](https://github.com/aschmelyun) has provided a [comprehensive walkthrough video](https://www.youtube.com/watch?v=kIqWxjDj4IU) detailing the setup process.
 
 ### Improvements from the original fork
-- Supports arm64 base chips (Apple M1, M2, M3).
-- Updated tooling (PHP 8.2 / MySQL 8).
-- Environment variables.
-- Better container / network naming.
-- Persistent storage by default.
-
+- Arm64 Support: Now compatible with Apple M1, M2, and M3 chips.
+- Updated Tooling: Utilizes PHP 8.2 and MySQL 8.
+- Environment Variables: Enhanced configurability.
+- Improved Docker Naming: Better container and network naming conventions.
+- Persistent Storage: Enabled by default for data persistence.
 
 ## Usage
 
