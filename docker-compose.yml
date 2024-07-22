@@ -26,6 +26,8 @@ services:
     restart: always
     ports:
       - 3306:3306
+    volumes:
+      - ./mysql:/var/lib/mysql
     environment:
       MYSQL_DATABASE: wp
       MYSQL_USER: wp
