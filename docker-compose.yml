@@ -18,6 +18,8 @@ services:
     depends_on:
       - php
       - mysql
+    environment:
+      - PROJECT_DOMAIN=${PROJECT_DOMAIN}
     networks:
       - project_network
 
